@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33aceec0d40a47659d54ded81297f3ad, type: 3}
+  m_Name: HotdogSettings
+  m_EditorClassIdentifier: 
+  classicHotdog:
+    name: Hot-Dog Classic
+    baseCost: 210
+    baseWeight: 150
+  chiliHotdog:
+    name: Hot-Dog Chili
+    baseCost: 250
+    baseWeight: 160
+  bavarianHotdog:
+    name: Hot-Dog Bavarian
+    baseCost: 280
+    baseWeight: 170
+  picklesDecorator:
+    name: 'Hot-Dog Pickles '
+    additionalCost: 50
+    additionalWeight: 20
+  sweetOnionDecorator:
+    name: Hot-Dog Sweet Onion
+    additionalCost: 30
+    additionalWeight: 10
